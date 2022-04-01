@@ -10,15 +10,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- input [type="checkbox"]{
-   -webkit-appearance: none;
-   visibility: hidden;
-   display: none;
-
- }
- .check{
-   
- }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -97,7 +88,21 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+#iki{
+  margin-bottom: 40px;
+}
+.game{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top:10px;
+  margin-bottom: 50px;
+}
+#game{
+  width: 300px;
+  height: 300px;
 
+  border-radius: 100px;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
